@@ -12,9 +12,19 @@ namespace Helloworld_01
         {
             var date = DateTime.Now;
             Console.WriteLine(date.ToString("ddd"));
-            Salutation.Afficher();
+            Salutation salutation = new Salutation();
+                salutation.Afficher();
+            // Salutation.Afficher();
             Message message = new Message();
                 message.ShowMessage();
+            Console.WriteLine("\nReturn to continue / type 'exit' to quit !");
+            var capture = Console.ReadLine();
+            while (capture != "exit")
+            {
+                message.ShowMessage();
+                Console.WriteLine("\nReturn to continue / type 'exit' to quit !");
+                capture = Console.ReadLine();
+            }
             Console.Write("Press any key to continue...");
             Console.ReadKey(true);
         }

@@ -8,7 +8,7 @@ namespace Helloworld_01
 {
     class Salutation
     {
-        public static void Afficher()
+        public void Afficher()
         {
             Console.WriteLine("\nQuel est ton nom ?");
             var name = Console.ReadLine();
