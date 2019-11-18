@@ -1,0 +1,6 @@
+C:\Users\christophe.leduc\Documents\Dev\C#\HelloWorld\Helloworld_01\Helloworld_01\bin\Release\Helloworld_01.exe.config
+C:\Users\christophe.leduc\Documents\Dev\C#\HelloWorld\Helloworld_01\Helloworld_01\bin\Release\Helloworld_01.exe
+C:\Users\christophe.leduc\Documents\Dev\C#\HelloWorld\Helloworld_01\Helloworld_01\bin\Release\Helloworld_01.pdb
+C:\Users\christophe.leduc\Documents\Dev\C#\HelloWorld\Helloworld_01\Helloworld_01\obj\Release\Helloworld_01.csproj.CoreCompileInputs.cache
+C:\Users\christophe.leduc\Documents\Dev\C#\HelloWorld\Helloworld_01\Helloworld_01\obj\Release\Helloworld_01.exe
+C:\Users\christophe.leduc\Documents\Dev\C#\HelloWorld\Helloworld_01\Helloworld_01\obj\Release\Helloworld_01.pdb
