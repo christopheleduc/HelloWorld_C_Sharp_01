@@ -10,7 +10,10 @@ namespace Helloworld_01
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var date = DateTime.Now;
+            Console.WriteLine(date.ToString("ddd"));
+            Salutation.Afficher();
+            GetHelloMessage.Politess();
             Console.Write("Press any key to continue...");
             Console.ReadKey(true);
         }
