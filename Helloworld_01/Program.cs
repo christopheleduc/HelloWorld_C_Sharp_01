@@ -10,18 +10,21 @@ namespace Helloworld_01
     {
         static void Main(string[] args)
         {
+            string hello;
             var date = DateTime.Now;
             Console.WriteLine(date.ToString("ddd"));
             Salutation salutation = new Salutation();
                 salutation.Afficher();
             // Salutation.Afficher();
             Message message = new Message();
-                message.ShowMessage();
+                hello = message.ShowMessage();
+                Console.WriteLine(hello);
             Console.WriteLine("\nReturn to continue / type 'exit' to quit !");
             var capture = Console.ReadLine();
             while (capture != "exit")
             {
                 message.ShowMessage();
+                Console.WriteLine(hello);
                 Console.WriteLine("\nReturn to continue / type 'exit' to quit !");
                 capture = Console.ReadLine();
             }
