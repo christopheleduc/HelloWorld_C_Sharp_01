@@ -37,12 +37,14 @@ namespace Helloworld_01
         public void ShowMessage()
         {
             //string salut;
+            //Console.WriteLine("UserName: {0}", Environment.UserName);
             var date = DateTime.Now;
 
             GetHelloMessage(ref date, out string salut);
 
-            Console.WriteLine("\nQuel est ton nom ?");
-            var name = Console.ReadLine();
+            //Console.WriteLine("\nQuel est ton nom ?");
+            //var name = Console.ReadLine();
+            var name = Environment.UserName;
 
             Console.WriteLine($"\n{salut}, {name}, le {date:d} à {date:t} !");
         }
